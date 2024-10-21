@@ -9,7 +9,7 @@ class MyQR:
         self.qr = qrcode.QRCode(box_size=size, border=padding)
 
     def create_qr(self, file_name, fg, bg):
-        # Solicitar al usuario que ingrese el texto para el código QR
+        
         user_input = simpledialog.askstring(title="Entrada",
                                             prompt="Introduce el texto para el código QR",
                                             parent=self.master)
